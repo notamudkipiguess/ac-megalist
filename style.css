@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffcccc 0%, #ff99cc 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    color: white;
+    width: 80%;  
+  }
